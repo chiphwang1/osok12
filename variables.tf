@@ -51,29 +51,7 @@ variable "dynamic_group_description" {
 # variables for Polciy for Dynamic Group to allow OSOK Operations
 # variable for ocid of compartment that holds OKE cluster
 
-variable "policy_description" {
-    type = string
-    default = "policy to allow OSOK operation"
-}
 
-variable "policy_name" {
-    type = string
-    default = "osok_policy"
-}
-
-
-
-variable "tenancy_ocid_osok" {
-  type = string
-  default = ""
-}
-
-
-
-variable "node_compartment_ocid" {
-  type = string
-  default = ""
-}
 
 
 
